@@ -27013,13 +27013,18 @@ var About = function About() {
       { className: 'about-container columns' },
       _react2.default.createElement(
         'div',
-        { className: 'column' },
+        { className: 'image column' },
         _react2.default.createElement('img', { src: 'images/raheracodes.png' })
       ),
       _react2.default.createElement(
         'div',
-        { className: 'column' },
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _Homesummary2.default })
+        { className: 'homesummary column' },
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _Homesummary2.default }),
+        _react2.default.createElement(
+          _reactRouterDom.Link,
+          { to: '/portfolio' },
+          'View my work \u2192'
+        )
       )
     )
   );
@@ -27054,9 +27059,9 @@ var Homesummary = function Homesummary() {
       'Kia ora, e hoa!'
     ),
     _react2.default.createElement(
-      'p',
+      'h3',
       null,
-      'Im a fullstack web developer. Welcome to my blog.'
+      'Im Rachael, a full-stack web developer.'
     )
   );
 };
