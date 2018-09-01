@@ -9,7 +9,10 @@ const Home = () => {
     <div className='home-container'>
       <div className='quote-section'>
         <Route path='/about' component={Quote} />
-        <Route path='/about' component={Aboutblurb} />
+        <div className='aboutme'>
+          <img src='images/rp-img.jpeg' />
+          <Route path='/about' component={Aboutblurb} />
+        </div>
       </div>
     </div>
   )

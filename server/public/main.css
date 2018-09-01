@@ -114,11 +114,11 @@ label {
   padding: 1rem;
 }
 
-.navbarmenu .button {
+.navbarmenu a {
   width: 5rem;
   height: 2rem;
   margin: 1rem 0 0 1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 /* HOME */
@@ -139,7 +139,7 @@ img.raheracodes{
 
 .about {
   position: relative; 
-  padding-top: 4%; 
+  padding-top: 20%; 
   padding-bottom: 6%;
 }
 
@@ -195,6 +195,10 @@ hr {
   background-color: white;
   text-align: center;
   padding: 3em 1em 3em 1em;
+}
+
+.aboutme {
+  background-color: white;
 }
 
 /* FOOTER */
