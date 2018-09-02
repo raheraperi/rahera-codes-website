@@ -26894,9 +26894,17 @@ var Home = function Home() {
       _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _Quote2.default }),
       _react2.default.createElement(
         'div',
-        { className: 'aboutme' },
-        _react2.default.createElement('img', { src: 'images/rp-img.jpeg' }),
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _Aboutblurb2.default })
+        { className: 'about-container columns' },
+        _react2.default.createElement(
+          'div',
+          { className: 'aboutme column' },
+          _react2.default.createElement('img', { src: 'images/rp-img.jpg' })
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'aboutme column' },
+          _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _Aboutblurb2.default })
+        )
       )
     )
   );

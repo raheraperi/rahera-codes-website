@@ -65,7 +65,6 @@ input {
 }
 
 .error {
-  margin-top: 2.5rem;
   color: red;
   font-weight: bold;
   font-size: 0.8rem;
@@ -175,26 +174,29 @@ hr {
 }
 
 .quote {
- padding-top: 5rem; 
  background-color: white;
  height: 100%;
 }
 
 .quote p {
-  font-size: 3rem; 
+  font-size: 2rem; 
   padding: 2rem; 
 }
 
 .about-blurb {
   background-color: white;
   text-align: center;
-  padding: 3em 1em 3em 1em;
+  padding: 3em 3em 3em 3em;
+}
+
+.about-blurb h2 {
+  font-size: 2rem;
 }
 
 .about-blurb p{
   background-color: white;
   text-align: center;
-  padding: 3em 1em 3em 1em;
+  padding: 1rem;
 }
 
 .aboutme {
@@ -221,10 +223,9 @@ hr {
   margin: auto;
   height: 5%;
   background-color: #FEC7C7;
-  border-top: 2px solid #7AB0AD;
-  margin-top: 5rem;
   margin-bottom: 0;
   color: #91A8D1;
+  border-top: 2px solid #91A8D1;
 }
 
 .footer a {
@@ -293,7 +294,6 @@ hr {
     position: relative;
     bottom: 0;
     text-align: left;
-    margin-bottom: 2rem;
   }
 
   .about p {
