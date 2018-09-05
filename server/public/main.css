@@ -126,14 +126,26 @@ label {
   margin-top: 0;
 }
 
+.column {
+  background-color: #FEC7C7;
+}
+
+.home-container {
+  padding-bottom: 3rem; 
+}
 
 /* ABOUT */
 .about{
   text-align: center;
 }
 
-img.raheracodes{
+.aboutme.column {
+  height:700px;
+}
 
+.aboutme.column img {
+  max-width: 100%;
+ overflow: hidden;
 }
 
 .about {
@@ -173,34 +185,19 @@ hr {
   border-top: none;
 }
 
-.quote {
- background-color: white;
- height: 100%;
-}
-
-.quote p {
-  font-size: 2rem; 
-  padding: 2rem; 
-}
-
 .about-blurb {
-  background-color: white;
-  text-align: center;
-  padding: 3em 3em 3em 3em;
+  background-color: #FEC7C7;
+  text-align: left;
+  padding: 1rem;
+  padding-right: 2rem; 
 }
 
-.about-blurb h2 {
-  font-size: 2rem;
+.about-blurb h3 {
+  font-size: 1.5rem;
 }
 
 .about-blurb p{
-  background-color: white;
-  text-align: center;
-  padding: 1rem;
-}
-
-.aboutme {
-  background-color: white;
+  padding-top: 1rem;
 }
 
 .homesummary a {
@@ -226,6 +223,7 @@ hr {
   margin-bottom: 0;
   color: #91A8D1;
   border-top: 2px solid #91A8D1;
+  padding: 3rem 1.5rem 3rem;
 }
 
 .footer a {

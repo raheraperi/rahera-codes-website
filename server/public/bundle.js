@@ -26874,10 +26874,6 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(11);
 
-var _Quote = __webpack_require__(113);
-
-var _Quote2 = _interopRequireDefault(_Quote);
-
 var _Aboutblurb = __webpack_require__(114);
 
 var _Aboutblurb2 = _interopRequireDefault(_Aboutblurb);
@@ -26891,14 +26887,13 @@ var Home = function Home() {
     _react2.default.createElement(
       'div',
       { className: 'quote-section' },
-      _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _Quote2.default }),
       _react2.default.createElement(
         'div',
         { className: 'about-container columns' },
         _react2.default.createElement(
           'div',
           { className: 'aboutme column' },
-          _react2.default.createElement('img', { src: 'images/rp-img.jpg' })
+          _react2.default.createElement('img', { src: 'images/placeholder.jpeg' })
         ),
         _react2.default.createElement(
           'div',
@@ -26913,42 +26908,7 @@ var Home = function Home() {
 exports.default = Home;
 
 /***/ }),
-/* 113 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Quote = function Quote() {
-  return _react2.default.createElement(
-    'div',
-    { className: 'quote' },
-    _react2.default.createElement(
-      'p',
-      null,
-      'He aha te mea nui o te ao? He t\u0101ngata, he t\u0101ngata, he t\u0101ngata.\x0B'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'What is the most important thing in the world? It is people, it is people, it is people.'
-    )
-  );
-};
-
-exports.default = Quote;
-
-/***/ }),
+/* 113 */,
 /* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26970,19 +26930,19 @@ var Aboutblurb = function Aboutblurb() {
     'div',
     { className: 'about-blurb' },
     _react2.default.createElement(
-      'h2',
+      'h3',
       null,
-      'A little about my experience'
+      'Rachael Peri is a full-stack web developer and Te Uru Rangi M\u0101ori scholarship graduate of Enspiral Dev Academy, New Zealand\u2019s premiere school for web development. She strives to build engaging and beautiful web applications through carefully crafted code and user-centric design.'
     ),
     _react2.default.createElement(
       'p',
       null,
-      'Starting my career in the public sector, I was able to gain a unique insight into the needs of communities of T\u0101maki Makaurau, fuelling an existing desire inside me to become a change-maker and force for good. I understood the limits of my impact in local government and decided to embark on a journey into the tech world. '
+      'Starting her career in the public sector, Rachael was able to gain a unique insight into the needs of communities of T\u0101maki Makaurau, fuelling an existing desire within to become a change-maker and force for good. She understood the limits of her impact in local government and decided to embark on a journey into the tech world. '
     ),
     _react2.default.createElement(
       'p',
       null,
-      'I commenced my studies in Web Development through NZs Premiere school for web development - Enspiral Dev Academy in March 2018 after being fortunate to receive a Te Uru Rangi M\u0101ori Scholarship. I am very interested in blockchain and de-centralised technology and its applications in socially and environmentally impactful work.'
+      'She started her studies in Web Development through NZs Premiere school for web development - Enspiral Dev Academy in March 2018 after being fortunate to receive a Te Uru Rangi M\u0101ori Scholarship.'
     )
   );
 };
@@ -27015,7 +26975,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var About = function About() {
   return _react2.default.createElement(
     'div',
-    null,
+    { className: 'home-container' },
     _react2.default.createElement(
       'div',
       { className: 'about-container columns' },
@@ -27069,7 +27029,7 @@ var Homesummary = function Homesummary() {
     _react2.default.createElement(
       'h3',
       null,
-      'Im Rachael, a full-stack web developer.'
+      'I\u2019m Rachael, a full-stack web developer.'
     )
   );
 };

@@ -5,7 +5,7 @@ import Homesummary from './Homesummary'
 
 const About = () => {
   return (
-    <div>
+    <div className='home-container'>
       <div className='about-container columns'>
         <div className='image column'>
           <img src='images/raheracodes.png' />
