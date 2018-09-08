@@ -213,6 +213,20 @@ hr {
   color: #91A8D1;
 }
 
+/* PORTFOLIO */
+
+.w-100 {
+ width: 50%!important;
+}
+
+.d-block {
+  display: inline!important;
+}
+
+.portfolio-carousel {
+
+}
+
 /* FOOTER */
 
 .footer {

@@ -5,6 +5,7 @@ import Nav from './Nav'
 import Home from './Home'
 import About from './About'
 import Footer from './Footer'
+import Portfolio from './Portfolio'
 import ErrorMessage from './ErrorMessage'
 import WaitIndicator from './WaitIndicator'
 
@@ -18,6 +19,7 @@ const App = () => {
         <div className='container-main'>
           <Route exact path='/' component={About} />
           <Route exact path='/about' component={Home} />
+          <Route exact path='/portfolio' component={Portfolio} />
         </div>
         <Footer />
       </div>

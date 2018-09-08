@@ -24944,19 +24944,23 @@ var _Home = __webpack_require__(112);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _About = __webpack_require__(115);
+var _About = __webpack_require__(114);
 
 var _About2 = _interopRequireDefault(_About);
 
-var _Footer = __webpack_require__(117);
+var _Footer = __webpack_require__(116);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _ErrorMessage = __webpack_require__(118);
+var _Portfolio = __webpack_require__(119);
+
+var _Portfolio2 = _interopRequireDefault(_Portfolio);
+
+var _ErrorMessage = __webpack_require__(117);
 
 var _ErrorMessage2 = _interopRequireDefault(_ErrorMessage);
 
-var _WaitIndicator = __webpack_require__(119);
+var _WaitIndicator = __webpack_require__(118);
 
 var _WaitIndicator2 = _interopRequireDefault(_WaitIndicator);
 
@@ -24976,7 +24980,8 @@ var App = function App() {
         'div',
         { className: 'container-main' },
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _About2.default }),
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/about', component: _Home2.default })
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/about', component: _Home2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/portfolio', component: _Portfolio2.default })
       ),
       _react2.default.createElement(_Footer2.default, null)
     )
@@ -26874,7 +26879,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(11);
 
-var _Aboutblurb = __webpack_require__(114);
+var _Aboutblurb = __webpack_require__(113);
 
 var _Aboutblurb2 = _interopRequireDefault(_Aboutblurb);
 
@@ -26908,8 +26913,7 @@ var Home = function Home() {
 exports.default = Home;
 
 /***/ }),
-/* 113 */,
-/* 114 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26950,7 +26954,7 @@ var Aboutblurb = function Aboutblurb() {
 exports.default = Aboutblurb;
 
 /***/ }),
-/* 115 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26966,7 +26970,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(11);
 
-var _Homesummary = __webpack_require__(116);
+var _Homesummary = __webpack_require__(115);
 
 var _Homesummary2 = _interopRequireDefault(_Homesummary);
 
@@ -27001,7 +27005,7 @@ var About = function About() {
 exports.default = About;
 
 /***/ }),
-/* 116 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27037,7 +27041,7 @@ var Homesummary = function Homesummary() {
 exports.default = Homesummary;
 
 /***/ }),
-/* 117 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27078,7 +27082,7 @@ var Footer = function Footer() {
 exports.default = Footer;
 
 /***/ }),
-/* 118 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27113,7 +27117,7 @@ function mapStateToProps(state) {
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(ErrorMessage);
 
 /***/ }),
-/* 119 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27146,6 +27150,120 @@ function mapStateToProps(state) {
 }
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(WaitIndicator);
+
+/***/ }),
+/* 119 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(11);
+
+var _Portfoliocarousel = __webpack_require__(120);
+
+var _Portfoliocarousel2 = _interopRequireDefault(_Portfoliocarousel);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Portfolio = function Portfolio() {
+  return _react2.default.createElement(
+    'div',
+    { className: 'portfolio-container' },
+    _react2.default.createElement(
+      'h1',
+      null,
+      'Portfolio section'
+    ),
+    _react2.default.createElement(_reactRouterDom.Route, { path: '/portfolio', component: _Portfoliocarousel2.default })
+  );
+};
+
+exports.default = Portfolio;
+
+/***/ }),
+/* 120 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Portfoliocarousel = function Portfoliocarousel() {
+  return _react2.default.createElement(
+    'div',
+    { className: 'portfolio-carousel' },
+    _react2.default.createElement(
+      'div',
+      { id: 'carouselExampleIndicators', className: 'carousel slide', 'data-ride': 'carousel' },
+      _react2.default.createElement(
+        'ol',
+        { className: 'carousel-indicators' },
+        _react2.default.createElement('li', { 'data-target': '#carouselExampleIndicators', 'data-slide-to': '0', className: 'active' }),
+        _react2.default.createElement('li', { 'data-target': '#carouselExampleIndicators', 'data-slide-to': '1' }),
+        _react2.default.createElement('li', { 'data-target': '#carouselExampleIndicators', 'data-slide-to': '2' })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'carousel-inner' },
+        _react2.default.createElement(
+          'div',
+          { className: 'carousel-item active' },
+          _react2.default.createElement('img', { className: 'd-block w-100', src: 'images/placeholder.jpeg', alt: 'First slide' })
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'carousel-item' },
+          _react2.default.createElement('img', { className: 'd-block w-100', src: 'images/placeholder.jpeg', alt: 'Second slide' })
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'carousel-item' },
+          _react2.default.createElement('img', { className: 'd-block w-100', src: 'images/placeholder.jpeg', alt: 'Third slide' })
+        )
+      ),
+      _react2.default.createElement(
+        'a',
+        { className: 'carousel-control-prev', href: '#carouselExampleIndicators', role: 'button', 'data-slide': 'prev' },
+        _react2.default.createElement('span', { className: 'carousel-control-prev-icon', 'aria-hidden': 'true' }),
+        _react2.default.createElement(
+          'span',
+          { className: 'sr-only' },
+          'Previous'
+        )
+      ),
+      _react2.default.createElement(
+        'a',
+        { className: 'carousel-control-next', href: '#carouselExampleIndicators', role: 'button', 'data-slide': 'next' },
+        _react2.default.createElement('span', { className: 'carousel-control-next-icon', 'aria-hidden': 'true' }),
+        _react2.default.createElement(
+          'span',
+          { className: 'sr-only' },
+          'Next'
+        )
+      )
+    )
+  );
+};
+
+exports.default = Portfoliocarousel;
 
 /***/ })
 /******/ ]);
