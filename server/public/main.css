@@ -118,6 +118,12 @@ label {
   height: 2rem;
   margin: 1rem 0 0 1rem;
   font-size: 1rem;
+  font-weight: bold;
+  color: #91A8D1;
+}
+
+.navbarmenu a:hover {
+  color: white;
 }
 
 /* HOME */
@@ -131,7 +137,7 @@ label {
 }
 
 .home-container {
-  padding-bottom: 3rem; 
+  padding-bottom: 2rem; 
 }
 
 /* ABOUT */
@@ -144,7 +150,7 @@ label {
 }
 
 .aboutme.column img {
-  max-width: 100%;
+  max-height: 100%;
  overflow: hidden;
 }
 
@@ -188,8 +194,7 @@ hr {
 .about-blurb {
   background-color: #FEC7C7;
   text-align: left;
-  padding: 1rem;
-  padding-right: 2rem; 
+  padding: 40px 60px 60px 40px 
 }
 
 .about-blurb h3 {
@@ -198,6 +203,11 @@ hr {
 
 .about-blurb p{
   padding-top: 1rem;
+  font-size: 16px;
+  line-height: 1.4em;
+  text-transform: none;
+  letter-spacing: 0em;
+  font-weight: 400;
 }
 
 .homesummary a {
@@ -216,16 +226,13 @@ hr {
 /* PORTFOLIO */
 
 .w-100 {
- width: 50%!important;
+ width: 40%!important;
 }
 
 .d-block {
   display: inline!important;
 }
 
-.portfolio-carousel {
-
-}
 
 /* FOOTER */
 
