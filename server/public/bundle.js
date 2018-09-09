@@ -27150,14 +27150,20 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Portfolio = function Portfolio() {
   return _react2.default.createElement(
     'div',
-    null,
+    { className: 'portfolio' },
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-hero' },
+      _react2.default.createElement('img', { src: 'images/work.png', className: 'work-img' })
+    ),
     _react2.default.createElement(
       'div',
       { className: 'portfolio-intro' },
+      _react2.default.createElement('img', { src: 'images/rp.jpeg', className: 'rclogo' }),
       _react2.default.createElement(
         'h3',
         null,
-        'What I\u2019ve been doing.'
+        'What I\u2019ve been up to.'
       ),
       _react2.default.createElement(
         'p',
@@ -27206,6 +27212,25 @@ var Portfolio = function Portfolio() {
           null,
           _react2.default.createElement('img', { src: 'images/redux.png', className: 'tech' })
         )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-contact' },
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Want to talk?'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'Send me a message and we can chat.'
+      ),
+      _react2.default.createElement(
+        'a',
+        { href: 'mailto:rachael.peri@gmail.com', className: 'main-btn' },
+        'message me'
       )
     )
   );

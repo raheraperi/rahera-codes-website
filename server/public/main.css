@@ -227,7 +227,7 @@ hr {
 
 .portfolio-intro {
   background-color: white;
-  padding: 3em 1em 3em 1em;
+  padding: 4rem 25rem 4rem 25rem;
 }
 .w-100 {
  width: 40%!important;
@@ -240,6 +240,7 @@ hr {
 .portfolio-container {
   height: 400px;
   padding-top: 3rem; 
+  background-color: #1d354d;
 }
 
 .technology-stack img{
@@ -254,6 +255,50 @@ hr {
   background-color: white;
 }
 
+img.work-img {
+  height: 400px;
+}
+
+img.rclogo {
+  border-radius: 50%
+}
+
+.portfolio-contact{
+  padding: 3rem;
+  background-color: #91A8D1;
+  color: white;
+  height: 400px;
+}
+
+.portfolio-contact h2, .portfolio-contact p{
+  color: white;
+  padding: 1rem;
+}
+
+.main-btn {
+  font-size: .8em;
+  text-align: center;
+  display: block;
+  position: relative;
+  background: white;
+  padding: .75em 2em .75em 3.5em;
+  color: #91A8D1;
+  text-decoration: none;
+  margin: 1.5em 0 0;
+  border-radius: 3px;
+  font-weight: 400;
+  border: 0;
+  width: 10rem;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.main-btn:hover {
+  background: #FEC7C7;
+  color: white;
+  
+}
 /* FOOTER */
 
 .footer {
