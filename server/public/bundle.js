@@ -27065,21 +27065,51 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Footer = function Footer() {
   return _react2.default.createElement(
     'div',
-    { className: 'footer' },
+    { className: 'footer columns' },
     _react2.default.createElement(
-      'h4',
-      null,
-      'Contact'
+      'div',
+      { className: 'contact column' },
+      _react2.default.createElement(
+        'h4',
+        null,
+        'Contact'
+      ),
+      _react2.default.createElement(
+        'a',
+        { href: 'mailto:rachael.peri@gmail.com' },
+        'rachael.peri@gmail.com'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        '\xA9 Copyright 2018 Rachael Peri. All rights reserved'
+      )
     ),
     _react2.default.createElement(
-      'a',
-      { href: 'mailto:rachael.peri@gmail.com' },
-      'rachael.peri@gmail.com'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      '\xA9 Copyright 2018 Rachael Peri. All rights reserved'
+      'div',
+      { className: 'social-media column' },
+      _react2.default.createElement(
+        'ul',
+        null,
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement(
+            'a',
+            { href: 'https://www.linkedin.com/in/rachael-peri-140864124/' },
+            _react2.default.createElement('img', { src: 'images/linkedin.png' })
+          )
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement(
+            'a',
+            { href: 'https://github.com/raheraperi' },
+            _react2.default.createElement('img', { src: 'images/github-sign.png' })
+          )
+        )
+      )
     )
   );
 };
@@ -27113,11 +27143,6 @@ var Portfolio = function Portfolio() {
   return _react2.default.createElement(
     'div',
     { className: 'portfolio-container' },
-    _react2.default.createElement(
-      'h1',
-      null,
-      'Portfolio section'
-    ),
     _react2.default.createElement(_reactRouterDom.Route, { path: '/portfolio', component: _Portfoliocarousel2.default })
   );
 };
