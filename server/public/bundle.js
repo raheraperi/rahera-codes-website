@@ -26850,7 +26850,7 @@ var Nav = function Nav() {
       _react2.default.createElement(
         _reactRouterDom.Link,
         { to: '/portfolio' },
-        'portfolio'
+        'work'
       )
     )
   );
@@ -27151,6 +27151,25 @@ var Portfolio = function Portfolio() {
   return _react2.default.createElement(
     'div',
     null,
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-intro' },
+      _react2.default.createElement(
+        'h3',
+        null,
+        'What I\u2019ve been doing.'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'Here is a selection of work I have created during my time at Enspiral Dev Academy and projects I am currently working on.'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'For more up to date work you can visit my github.'
+      )
+    ),
     _react2.default.createElement(
       'div',
       { className: 'portfolio-container' },

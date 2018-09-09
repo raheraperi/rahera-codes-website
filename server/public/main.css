@@ -225,6 +225,10 @@ hr {
 
 /* PORTFOLIO */
 
+.portfolio-intro {
+  background-color: white;
+  padding: 3em 1em 3em 1em;
+}
 .w-100 {
  width: 40%!important;
 }
@@ -234,7 +238,8 @@ hr {
 }
 
 .portfolio-container {
-  height: 600px;
+  height: 400px;
+  padding-top: 3rem; 
 }
 
 .technology-stack img{

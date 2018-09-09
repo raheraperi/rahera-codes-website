@@ -6,6 +6,13 @@ import Portfoliocarousel from './Portfoliocarousel'
 const Portfolio = () => {
   return (
     <div>
+      <div className='portfolio-intro'>
+        <h3>What I&#8217;ve been doing.</h3>
+        <p>Here is a selection of work I have created during my time at Enspiral Dev Academy
+          and projects I am currently working on.
+        </p>
+        <p>For more up to date work you can visit my github.</p>
+      </div>
       <div className='portfolio-container'>
         <Route path='/portfolio' component={Portfoliocarousel} />
       </div>
