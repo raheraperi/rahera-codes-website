@@ -27065,29 +27065,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Footer = function Footer() {
   return _react2.default.createElement(
     'div',
-    { className: 'footer columns' },
+    { className: 'footer' },
     _react2.default.createElement(
       'div',
-      { className: 'contact column' },
-      _react2.default.createElement(
-        'h4',
-        null,
-        'Contact'
-      ),
-      _react2.default.createElement(
-        'a',
-        { href: 'mailto:rachael.peri@gmail.com' },
-        'rachael.peri@gmail.com'
-      ),
-      _react2.default.createElement(
-        'p',
-        null,
-        '\xA9 Copyright 2018 Rachael Peri. All rights reserved'
-      )
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'social-media column' },
+      { className: 'social-media' },
       _react2.default.createElement(
         'ul',
         null,
@@ -27108,7 +27089,34 @@ var Footer = function Footer() {
             { href: 'https://github.com/raheraperi' },
             _react2.default.createElement('img', { src: 'images/github-sign.png' })
           )
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement(
+            'a',
+            { href: 'mailto:rachael.peri@gmail.com' },
+            'hire me'
+          )
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement(
+            'a',
+            { href: '' },
+            'resume pdf'
+          )
         )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'contact' },
+      _react2.default.createElement(
+        'p',
+        null,
+        '\xA9 Copyright 2018 Rachael Peri. All rights reserved.'
       )
     )
   );

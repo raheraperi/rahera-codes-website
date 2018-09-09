@@ -252,8 +252,20 @@ hr {
   border: .3px solid transparent;
 }
 
-.app {
-  background-color: #7AB0AD;
+ul li{
+  display: inline-block;
+  padding-right: 7rem;
+  padding-left: 7rem; 
+}
+
+.social-media {
+  text-align:center;
+}
+
+.contact p {
+  text-align: center;
+  padding-top: 2rem; 
+  font-size: 14px;
 }
 
 /* MEDIA QUERIES */
