@@ -8,7 +8,7 @@ const Footer = () => {
           <li><a href='https://www.linkedin.com/in/rachael-peri-140864124/'><img src='images/linkedin.png' /></a></li>
           <li><a href='https://github.com/raheraperi'><img src='images/github-sign.png' /></a></li>
           <li><a href='mailto:rachael.peri@gmail.com'>hire me</a></li>
-          <li><a href=''>resume pdf</a></li>
+          <li><a href='https://drive.google.com/file/d/1_7LcFxxM2JbzvCe7WTGq9iEcvheLmF2o/view?usp=sharing'>resume pdf</a></li>
         </ul>
       </div>
       <div className='contact'>

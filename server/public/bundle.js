@@ -27104,7 +27104,7 @@ var Footer = function Footer() {
           null,
           _react2.default.createElement(
             'a',
-            { href: '' },
+            { href: 'https://drive.google.com/file/d/1_7LcFxxM2JbzvCe7WTGq9iEcvheLmF2o/view?usp=sharing' },
             'resume pdf'
           )
         )
@@ -27150,8 +27150,45 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Portfolio = function Portfolio() {
   return _react2.default.createElement(
     'div',
-    { className: 'portfolio-container' },
-    _react2.default.createElement(_reactRouterDom.Route, { path: '/portfolio', component: _Portfoliocarousel2.default })
+    null,
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-container' },
+      _react2.default.createElement(_reactRouterDom.Route, { path: '/portfolio', component: _Portfoliocarousel2.default })
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'technology-stack' },
+      _react2.default.createElement(
+        'ul',
+        null,
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement('img', { src: 'images/es6js.png', className: 'tech' })
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement('img', { src: 'images/expressjs.png', className: 'tech' })
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement('img', { src: 'images/nodejs.png', className: 'tech' })
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement('img', { src: 'images/React_logo_wordmark.png', className: 'tech' })
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement('img', { src: 'images/redux.png', className: 'tech' })
+        )
+      )
+    )
   );
 };
 
@@ -27194,17 +27231,12 @@ var Portfoliocarousel = function Portfoliocarousel() {
         _react2.default.createElement(
           'div',
           { className: 'carousel-item active' },
-          _react2.default.createElement('img', { className: 'd-block w-100 carousel-img', src: 'images/placeholder.jpeg', alt: 'First slide' })
+          _react2.default.createElement('img', { className: 'd-block w-100 carousel-img', src: 'images/streetfeel.png', alt: 'First slide' })
         ),
         _react2.default.createElement(
           'div',
           { className: 'carousel-item' },
-          _react2.default.createElement('img', { className: 'd-block w-100 carousel-img', src: 'images/placeholder.jpeg', alt: 'Second slide' })
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'carousel-item' },
-          _react2.default.createElement('img', { className: 'd-block w-100 carousel-img', src: 'images/placeholder.jpeg', alt: 'Third slide' })
+          _react2.default.createElement('img', { className: 'd-block w-100 carousel-img', src: 'images/softwareness.png', alt: 'Second slide' })
         )
       ),
       _react2.default.createElement(

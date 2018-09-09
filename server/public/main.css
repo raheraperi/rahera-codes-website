@@ -233,6 +233,21 @@ hr {
   display: inline!important;
 }
 
+.portfolio-container {
+  height: 600px;
+}
+
+.technology-stack img{
+  height: 6rem;
+}
+
+.technology-stack li {
+  padding: 1rem;
+}
+
+.technology-stack ul {
+  background-color: white;
+}
 
 /* FOOTER */
 
