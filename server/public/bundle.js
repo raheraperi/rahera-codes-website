@@ -27141,6 +27141,10 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(8);
 
+var _Stackbanner = __webpack_require__(121);
+
+var _Stackbanner2 = _interopRequireDefault(_Stackbanner);
+
 var _Portfoliocarousel = __webpack_require__(118);
 
 var _Portfoliocarousel2 = _interopRequireDefault(_Portfoliocarousel);
@@ -27179,40 +27183,8 @@ var Portfolio = function Portfolio() {
     _react2.default.createElement(
       'div',
       { className: 'portfolio-container' },
-      _react2.default.createElement(_reactRouterDom.Route, { path: '/portfolio', component: _Portfoliocarousel2.default })
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'technology-stack' },
-      _react2.default.createElement(
-        'ul',
-        null,
-        _react2.default.createElement(
-          'li',
-          null,
-          _react2.default.createElement('img', { src: 'images/es6js.png', className: 'tech' })
-        ),
-        _react2.default.createElement(
-          'li',
-          null,
-          _react2.default.createElement('img', { src: 'images/expressjs.png', className: 'tech' })
-        ),
-        _react2.default.createElement(
-          'li',
-          null,
-          _react2.default.createElement('img', { src: 'images/nodejs.png', className: 'tech' })
-        ),
-        _react2.default.createElement(
-          'li',
-          null,
-          _react2.default.createElement('img', { src: 'images/React_logo_wordmark.png', className: 'tech' })
-        ),
-        _react2.default.createElement(
-          'li',
-          null,
-          _react2.default.createElement('img', { src: 'images/redux.png', className: 'tech' })
-        )
-      )
+      _react2.default.createElement('div', { className: 'project-contaner' }),
+      _react2.default.createElement('div', { className: 'project-container' })
     ),
     _react2.default.createElement(
       'div',
@@ -27378,6 +27350,61 @@ function mapStateToProps(state) {
 }
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(WaitIndicator);
+
+/***/ }),
+/* 121 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Stackbanner = function Stackbanner() {
+  return _react2.default.createElement(
+    'div',
+    { className: 'technology-stack' },
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement('img', { src: 'images/es6js.png', className: 'tech' })
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement('img', { src: 'images/expressjs.png', className: 'tech' })
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement('img', { src: 'images/nodejs.png', className: 'tech' })
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement('img', { src: 'images/React_logo_wordmark.png', className: 'tech' })
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement('img', { src: 'images/redux.png', className: 'tech' })
+      )
+    )
+  );
+};
+
+exports.default = Stackbanner;
 
 /***/ })
 /******/ ]);

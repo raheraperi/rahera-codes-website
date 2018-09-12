@@ -1,6 +1,7 @@
 import React from 'react'
 import {Route} from 'react-router-dom'
 
+import Stackbanner from './Stackbanner'
 import Portfoliocarousel from './Portfoliocarousel'
 
 const Portfolio = () => {
@@ -18,17 +19,17 @@ const Portfolio = () => {
         <p>For more up to date work you can visit my github.</p>
       </div>
       <div className='portfolio-container'>
+        <div className='project-contaner'>
+        </div>
+        <div className='project-container'>
+        </div>
+      </div>
+      {/* <div className='portfolio-container'>
         <Route path='/portfolio' component={Portfoliocarousel} />
       </div>
-      <div className='technology-stack'>
-        <ul>
-          <li><img src='images/es6js.png' className='tech'/></li>
-          <li><img src='images/expressjs.png' className='tech'/></li>
-          <li><img src='images/nodejs.png' className='tech' /></li>
-          <li><img src='images/React_logo_wordmark.png' className='tech'/></li>
-          <li><img src='images/redux.png' className='tech'/></li>
-        </ul>
-      </div>
+      <div className='stack-banner'>
+        <Route path='/portfolio' component={Stackbanner} />
+      </div> */}
       <div className='portfolio-contact'>
         <h2>Want to talk?</h2>
         <p>Send me a message and we can chat.</p>
