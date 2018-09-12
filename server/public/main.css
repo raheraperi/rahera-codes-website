@@ -79,11 +79,12 @@ input {
   position: relative;
 }
 
-label {
-  font-size: 1rem;
-  color: #7AB0AD;
-  margin-bottom: 0rem;
+hr.portfolio {
+  border-top: dotted 2px;
+  background-color: transparent;
 }
+
+
 
 /* NAV  */
 
@@ -238,7 +239,7 @@ hr {
 }
 
 .portfolio-container {
-  height: 400px;
+  height: auto;
   padding-top: 3rem; 
   background-color: #1d354d;
 }
@@ -257,6 +258,8 @@ hr {
 
 img.work-img {
   height: 400px;
+  padding: 2rem;
+
 }
 
 img.rclogo {
@@ -299,6 +302,17 @@ img.rclogo {
   color: white;
   
 }
+
+.project-container {
+  padding: 2rem; 
+}
+
+.work-blurb {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
 /* FOOTER */
 
 .footer {
