@@ -1,5 +1,6 @@
 import React from 'react'
 import {HashRouter as Router, Route} from 'react-router-dom'
+import {StickyContainer, Sticky} from 'react-sticky'
 
 import Nav from './Nav'
 import Home from './Home'

@@ -46,6 +46,7 @@
     "react-redux": "^5.0.6",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
+    "react-sticky": "^6.0.3",
     "recharts": "^1.0.1",
     "redux": "^3.7.2",
     "redux-mock-store": "^1.5.3",
